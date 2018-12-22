@@ -1,0 +1,364 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corniche Bellevue</title>
+
+    <link rel="icon"
+          type="image/ico"
+          href="/favicon.ico" />
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="custom.css" rel="stylesheet">
+
+    <link href="font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+    <style type="text/css">
+        img.galleryimg {
+            width: 100%;
+        }
+
+        #gallery div {
+            padding: 0;
+        }
+
+        #gallery h4 {
+            position: absolute;
+            width: 100%;
+            bottom: 5px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
+    <nav id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+            <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+            <li>
+                <a href="#top" onclick=$("#menu-close").click();>Forside</a>
+            </li>
+            <li>
+                <a href="#prices" onclick=$("#menu-close").click();>Priser</a>
+            </li>
+            <li>
+                <a href="#gallery" onclick=$("#menu-close").click();>Billeder</a>
+            </li>
+            <li>
+                <a href="#practicalinfo" onclick=$("#menu-close").click();>Praktisk Info</a>
+            </li>
+            <li>
+                <a href="#contact" onclick=$("#menu-close").click();>Kontakt Os</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Header -->
+    <header id="top" class="header" style="color: #fff;">
+        <div class="text-vertical-center">
+            <h1 class="btn-dark btn-lg">Corniche Bellevue</h1>
+            <br />
+            <h3 class="btn-dark btn-lg">Familien Rasmussens lejlighed i Sant Laurant Du Var.</h3>
+            <br />
+            <a href="#about" class="btn btn-dark btn-lg">Læs mere</a>
+            <br />
+            <h4>
+                <strong>Kontakt os på </strong><i class="fa fa-envelope-o fa-fw"></i> <a href="mailto:axel@axra.dk" style="color: #fff;text-decoration: underline">axel@axra.dk</a>
+            </h4>
+        </div>
+    </header>
+
+    <!-- About -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Smuk beliggende lejlighed på Corniche d'Agrimont i Saint-Laurent-du-Var</h2>
+                    <p class="lead">
+                        Lejligheden Corniche Bellevue er på 85m2 i et ferielejlighedskompleks med udsigt til Middelhavet.<br />
+                        Kun 3 km fra Nice lufthavn og 9 km fra Nice centrum.<br />
+                        Ferieboligen er til rådighed for familie og venner med relation hertil.
+                    </p>
+                </div>
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+    <section id="prices" class="services bg-primary">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-10 col-lg-offset-1">
+                    <h2>Priser</h2>
+                    <hr class="small">
+                    <div class="row">
+                        <div class="col-md-4 col-sm-12">
+                            <div class="service-item">
+                                <h4>
+                                    <strong>Højsæson</strong>
+                                </h4>
+                                <p>
+                                    <table class="table">
+                                        <tbody>
+                                            <tr>
+                                                <th scope="row">Periode</th>
+                                                <td>jun / jul / aug / sep</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">Pris uge</th>
+                                                <td>4.600,-</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">Pris dag</th>
+                                                <td>800,-</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-12">
+                            <div class="service-item">
+                                <h4>
+                                    <strong>Middelsæson</strong>
+                                </h4>
+                                <p>
+                                    <table class="table">
+                                        <tbody>
+                                            <tr>
+                                                <th scope="row">Periode</th>
+                                                <td>mar / apr / maj / okt</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">Pris uge</th>
+                                                <td>3.600,-</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">Pris dag</th>
+                                                <td>550,-</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </p>
+
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-12">
+                            <div class="service-item">
+                                <h4>
+                                    <strong>Lavsæson</strong>
+                                </h4>
+                                <p>
+                                    <table class="table">
+                                        <tbody>
+                                            <tr>
+                                                <th scope="row">Periode</th>
+                                                <td>nov / dec / jan / feb</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">Pris uge</th>
+                                                <td>2.600,-</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">Pris dag</th>
+                                                <td>400,-</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </p>
+                            </div>
+
+                        </div>
+                        <p>Uden for højsæsonen gives 10 % rabat på 2. uges leje og 20% rabat på 3. uges leje ved samlet udlejning.</p>
+                        <br />
+                        <h4>Kontakt os på <i class="fa fa-envelope-o fa-fw"></i> <a href="mailto:axel@axra.dk" style="color: #fff;">axel@axra.dk</a></h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery -->
+
+    <section id="gallery">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <h4 class="btn-dark btn-lg">Køkken</h4>
+                    <img class="galleryimg" src="imgs/Galleri - CornicheBellevue_01.png" alt="Køkken" />
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <h4 class="btn-dark btn-lg">Hovedingang til Corniche Bellevue</h4>
+                    <img class="galleryimg" src="imgs/Galleri - CornicheBellevue_02.png" alt="Hovedingang til Corniche Bellevue" />
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <h4 class="btn-dark btn-lg">Udsigt over Middelhavet</h4>
+                    <img class="galleryimg" src="imgs/Galleri - CornicheBellevue_03.png" alt="Udsigt over Middelhavet" />
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <h4 class="btn-dark btn-lg">Stuen</h4>
+                    <img class="galleryimg" src="imgs/Galleri - CornicheBellevue_04.png" alt="Stuen" />
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <h4 class="btn-dark btn-lg">Soveværelse</h4>
+                    <img class="galleryimg" src="imgs/Galleri - CornicheBellevue_05.png" alt="Soveværelse" />
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <h4 class="btn-dark btn-lg">Soveværelse</h4>
+                    <img class="galleryimg" src="imgs/Galleri - CornicheBellevue_06.png" alt="Soveværelse" />
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <h4 class="btn-dark btn-lg">Set fra vest</h4>
+                    <img class="galleryimg" src="imgs/Galleri - CornicheBellevue_07.png" alt="Set fra vest" />
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <h4 class="btn-dark btn-lg">Udsigt mod sydvest fra vej</h4>
+                    <img class="galleryimg" src="imgs/Galleri - CornicheBellevue_08.png" alt="Udsigt mod sydvest fra vej" />
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <h4 class="btn-dark btn-lg">Pool i Corniche Bellevue</h4>
+                    <img class="galleryimg" src="imgs/Galleri - CornicheBellevue_09.png" alt="Pool i Corniche Bellevue" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Praktisk info -->
+    <section id="practicalinfo" class="info call-to-action bg-primary">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-10 col-lg-offset-1">
+                    <h2>Praktisk info</h2>
+                    <hr class="small">
+                    <!-- /.row (nested) -->
+                    <div class="row text-left" style="font-size: 1.3em;">
+                        <dl class="dl-horizontal">
+                            <dt>Husorden</dt>
+                            <dd>Husdyr er ikke tilladt.</dd>
+                            <dd>Rygning er ikke tilladt.</dd>
+                            <dd>&nbsp;</dd>
+                            <dt>Lejeperiode</dt>
+                            <dd>Perioden går fra kl. 16 på ankomstadg til kl. 10 på afrejsedag.</dd>
+                            <dd>udlejning på ugebasis går fra lørdag til lørdag.</dd>
+                            <dd>&nbsp;</dd>
+                            <dt>Depositum</dt>
+                            <dd>kr. 1.000,- som indbetales sammen med reservationen.</dd>
+                            <dd>Depositum tilbagebetales, når nøglen er returneret, minus eventuelt manglende/ødelagt indbo eller rengøring.</dd>
+                            <dd>&nbsp;</dd>
+                            <dt>Lejepris</dt>
+                            <dd>Betaling indbetales senest 8 uger før ankomst til lejligheden.</dd>
+                            <dd>Al forbrug af el, vand og Internet (wifi) er inkluderet i lejeprisen.</dd>
+                            <dd>&nbsp;</dd>
+                            <dt>Rengøring</dt>
+                            <dd>Lejligheden efterlades rengjort: Alle gulve, køkken, badeværelse, toilet, terasse mm.</dd>
+                            <dd>Der er håndklæder,sengelinned og viskestykker i lejligheden som I kan benytte. <strong>Husk dog at vaske og hænge dem til tørre inden afrejse.</strong></dd>
+                            <dd>I kan også selv medbringe hådnklæder,sengelinned og viskestykker.</dd>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- Map -->
+    <section id="contact" class="map">
+        <iframe src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=da&amp;geocode=&amp;q=Corniche+d%C2%B4Agrimont,++++06700+SAINT-+LAURENT-DU-VAR+%E2%80%93+France&amp;sll=55.869147,11.228027&amp;sspn=5.748825,16.853027&amp;ie=UTF8&amp;hq=&amp;hnear=217+Corniche+d%27Agrimont,+06700+Saint-Laurent-du-Var,+Alpes-Maritimes,+Provence-Alpes-C%C3%B4te+d%27Azur,+Frankrig&amp;view=map&amp;ll=43.671721,7.184029&amp;spn=0.067297,0.153637&amp;z=13&amp;output=embed" title="Google Map" width="100%" height="500" frameborder="0" class="map_embed" scrolling="no">
+            <small>
+                <a href="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=da&amp;geocode=&amp;q=Corniche+d%C2%B4Agrimont,++++06700+SAINT-+LAURENT-DU-VAR+%E2%80%93+France&amp;sll=55.869147,11.228027&amp;sspn=5.748825,16.853027&amp;ie=UTF8&amp;hq=&amp;hnear=217+Corniche+d%27Agrimont,+06700+Saint-Laurent-du-Var,+Alpes-Maritimes,+Provence-Alpes-C%C3%B4te+d%27Azur,+Frankrig&amp;view=map&amp;ll=43.671721,7.184029&amp;spn=0.067297,0.153637&amp;z=13&amp;output=embed"></a>
+            </small>
+        </iframe>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h4>
+                        <strong>Kontakt os på </strong><i class="fa fa-envelope-o fa-fw"></i> <a href="mailto:axel@axra.dk" style="text-decoration: underline">axel@axra.dk</a>
+                    </h4>
+                </div>
+            </div>
+            <a id="to-top" href="#top" class="btn btn-dark btn-lg"><i class="fa fa-chevron-up fa-fw fa-1x"></i></a>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script>
+
+
+        // Closes the sidebar menu
+        $("#menu-close").click(function (e) {
+            e.preventDefault();
+            $("#sidebar-wrapper").toggleClass("active");
+        });
+        // Opens the sidebar menu
+        $("#menu-toggle").click(function (e) {
+            e.preventDefault();
+            $("#sidebar-wrapper").toggleClass("active");
+        });
+
+        //#to-top button appears after scrolling
+        var fixed = false;
+        $(document).scroll(function () {
+            if ($(this).scrollTop() > 250) {
+                if (!fixed) {
+                    fixed = true;
+                    // $('#to-top').css({position:'fixed', display:'block'});
+                    $('#to-top').show("slow", function () {
+                        $('#to-top').css({
+                            position: 'fixed',
+                            display: 'block'
+                        });
+                    });
+                }
+            } else {
+                if (fixed) {
+                    fixed = false;
+                    $('#to-top').hide("slow", function () {
+                        $('#to-top').css({
+                            display: 'none'
+                        });
+                    });
+                }
+            }
+        });
+
+        var $root = $('html, body');
+        $('a').click(function () {
+            $root.animate({
+                scrollTop: $($.attr(this, 'href')).offset().top
+            }, 500);
+            return false;
+        });
+
+        // Disable Google Maps scrolling
+        // See http://stackoverflow.com/a/25904582/1607849
+        // Disable scroll zooming and bind back the click event
+        var onMapMouseleaveHandler = function (event) {
+            var that = $(this);
+            that.on('click', onMapClickHandler);
+            that.off('mouseleave', onMapMouseleaveHandler);
+            that.find('iframe').css("pointer-events", "none");
+        }
+        var onMapClickHandler = function (event) {
+            var that = $(this);
+            // Disable the click handler until the user leaves the map area
+            that.off('click', onMapClickHandler);
+            // Enable scrolling zoom
+            that.find('iframe').css("pointer-events", "auto");
+            // Handle the mouse leave event
+            that.on('mouseleave', onMapMouseleaveHandler);
+        }
+        // Enable map zooming with mouse scroll when the user clicks the map
+        $('.map').on('click', onMapClickHandler);
+    </script>
+</body>
+</html>
